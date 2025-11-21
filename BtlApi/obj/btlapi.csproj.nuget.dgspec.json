@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dang Truong\\source\\repos\\btlapi\\btlapi\\btlapi.csproj": {}
+    "C:\\Users\\Dang Truong\\source\\repos\\BtlApi\\btlapi\\btlapi.csproj": {}
   },
   "projects": {
     "C:\\Users\\Dang Truong\\source\\repos\\BtlApi\\BLL\\BLL.csproj": {
@@ -358,14 +358,14 @@
         }
       }
     },
-    "C:\\Users\\Dang Truong\\source\\repos\\btlapi\\btlapi\\btlapi.csproj": {
+    "C:\\Users\\Dang Truong\\source\\repos\\BtlApi\\btlapi\\btlapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dang Truong\\source\\repos\\btlapi\\btlapi\\btlapi.csproj",
+        "projectUniqueName": "C:\\Users\\Dang Truong\\source\\repos\\BtlApi\\btlapi\\btlapi.csproj",
         "projectName": "btlapi",
-        "projectPath": "C:\\Users\\Dang Truong\\source\\repos\\btlapi\\btlapi\\btlapi.csproj",
+        "projectPath": "C:\\Users\\Dang Truong\\source\\repos\\BtlApi\\btlapi\\btlapi.csproj",
         "packagesPath": "C:\\Users\\Dang Truong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dang Truong\\source\\repos\\btlapi\\btlapi\\obj\\",
+        "outputPath": "C:\\Users\\Dang Truong\\source\\repos\\BtlApi\\btlapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -386,11 +386,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Dang Truong\\source\\repos\\btlapi\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\Dang Truong\\source\\repos\\btlapi\\BLL\\BLL.csproj"
+              "C:\\Users\\Dang Truong\\source\\repos\\BtlApi\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\Dang Truong\\source\\repos\\BtlApi\\BLL\\BLL.csproj"
               },
-              "C:\\Users\\Dang Truong\\source\\repos\\btlapi\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Dang Truong\\source\\repos\\btlapi\\Model\\Model.csproj"
+              "C:\\Users\\Dang Truong\\source\\repos\\BtlApi\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Dang Truong\\source\\repos\\BtlApi\\Model\\Model.csproj"
               }
             }
           }
