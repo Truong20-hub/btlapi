@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("btlapi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f71c17b2e54cc69f2480216a52218f233cd147eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+799fa6b08949cd6ab113c1cf28344d055f158aeb")]
 [assembly: System.Reflection.AssemblyProductAttribute("btlapi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("btlapi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

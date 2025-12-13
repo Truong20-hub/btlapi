@@ -1,0 +1,12 @@
+C:\Users\Dang Truong\source\repos\BtlApi\Model_\bin\Debug\net6.0\Model_.deps.json
+C:\Users\Dang Truong\source\repos\BtlApi\Model_\bin\Debug\net6.0\Model_.dll
+C:\Users\Dang Truong\source\repos\BtlApi\Model_\bin\Debug\net6.0\Model_.pdb
+C:\Users\Dang Truong\source\repos\BtlApi\Model_\obj\Debug\net6.0\Model_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dang Truong\source\repos\BtlApi\Model_\obj\Debug\net6.0\Model_.AssemblyInfoInputs.cache
+C:\Users\Dang Truong\source\repos\BtlApi\Model_\obj\Debug\net6.0\Model_.AssemblyInfo.cs
+C:\Users\Dang Truong\source\repos\BtlApi\Model_\obj\Debug\net6.0\Model_.csproj.CoreCompileInputs.cache
+C:\Users\Dang Truong\source\repos\BtlApi\Model_\obj\Debug\net6.0\Model_.sourcelink.json
+C:\Users\Dang Truong\source\repos\BtlApi\Model_\obj\Debug\net6.0\Model_.dll
+C:\Users\Dang Truong\source\repos\BtlApi\Model_\obj\Debug\net6.0\refint\Model_.dll
+C:\Users\Dang Truong\source\repos\BtlApi\Model_\obj\Debug\net6.0\Model_.pdb
+C:\Users\Dang Truong\source\repos\BtlApi\Model_\obj\Debug\net6.0\ref\Model_.dll

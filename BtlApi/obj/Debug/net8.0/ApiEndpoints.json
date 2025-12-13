@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "btlapi.Controllers.KhoaController",
+    "Method": "create",
+    "RelativePath": "api/Khoa/create-khoa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "khoa",
+        "Type": "Model_.Khoa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

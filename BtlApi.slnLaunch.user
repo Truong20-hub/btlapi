@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "btlapi\\APIAdmin.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "APIUser\\APIUser.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "APIGateWay\\APIGateWay.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
