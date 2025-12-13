@@ -64,7 +64,8 @@ namespace DAL_.helper
         ///// truy vấn không dữ liệu
         ///// </summary>
         ///// 
-        //DataTable ExcuteProcedureToDataTable(out string msgError, string proName, params object[] paramester); 
+        DataTable ExcuteProcedureToDataTable(out string msgError, string proName, params object[] paramester);
+        DataTable ExcuteProcedureToDataTable(string proName);
         /////<summary>
         /////Thực hiện truy vấn có trả về sữ liệu
         ///// </summary>

@@ -17,9 +17,6 @@ namespace Model_
             TrinhDo = trinhDo;
             Khoa = khoa;
             Mon = mon;
-            SDT = sDT;
-            Email = email;
-            DiaChi = diaChi;
             DanhSachLH = danhSachLH;
         }
 

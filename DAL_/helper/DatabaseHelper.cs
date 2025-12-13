@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using System.Data;
+using System.Runtime.Serialization.Formatters;
 
 namespace DAL_.helper
 {
@@ -119,6 +120,92 @@ namespace DAL_.helper
             }
 
             return result;
+        }
+        public DataTable ExcuteProcedureToDataTable(out string msgError, string proName, params object[] paramester)
+        {
+            msgError = "";
+            DataTable result = new DataTable();
+            using(SqlConnection sqlConnection = new SqlConnection(stringConllection))
+            {
+                sqlConnection.Open();
+                using(SqlTransaction tran = sqlConnection.BeginTransaction())
+                {
+                    try
+                    {
+                        using(SqlCommand cmd = new SqlCommand(proName, sqlConnection, tran))
+                        {
+                            cmd.CommandType = CommandType.StoredProcedure;
+                            int count = paramester.Length / 2;
+                            int index = 0;
+                            for(int i =0; i < count; i++)
+                            {
+                                string paraname = Convert.ToString(paramester[index++]);
+                                object value = paramester[index++];
+                                if(paraname == "@Result")
+                                {
+                                    var outParam = new SqlParameter(paraname, SqlDbType.Int)
+                                    {
+                                        Direction = ParameterDirection.Output,
+                                    };
+                                    cmd.Parameters.Add(outParam);
+                                    continue;
+                                }
+                                if (paraname.ToLower().Contains("json"))
+                                {
+                                    cmd.Parameters.Add(new SqlParameter()
+                                    {
+                                        ParameterName = paraname,
+                                        Value = value ?? DBNull.Value,
+                                        SqlDbType = SqlDbType.NVarChar,
+                                    }); 
+
+                                }
+                                else
+                                {
+                                    cmd.Parameters.AddWithValue(paraname, value ?? DBNull.Value);
+                                }
+                            }
+                            SqlDataAdapter da = new SqlDataAdapter(cmd);
+                            da.Fill(result);
+                        }
+                        tran.Commit();
+                    }
+                    catch
+                    {
+                        try { tran.Rollback(); } catch { }
+                        throw;
+                    }
+
+                }
+            }
+            return result;
+        }
+        public  DataTable ExcuteProcedureToDataTable(string proName)
+        {
+            DataTable Dt = new DataTable();
+            using (SqlConnection conn = new SqlConnection(stringConllection))
+            {
+                try
+                {
+                    conn.Open();
+                    using (SqlCommand cmd = new SqlCommand(proName, conn)) // hoặc tên proc của bạn
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+
+                        using (SqlDataAdapter da = new SqlDataAdapter(cmd))
+                        {
+                            da.Fill(Dt);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Ghi log lỗi (rất quan trọng trong thực tế)
+                    throw new Exception("Lỗi khi lấy dữ liệu tài khoản: " + ex.Message, ex);
+                }
+            }
+            return Dt;
+
         }
 
     }

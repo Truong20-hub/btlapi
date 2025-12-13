@@ -17,9 +17,7 @@ namespace Model_
             NganhHoc = nganhHoc;
             KhoaHoc = khoaHoc;
             MaLopHC = maLopHC;
-            SDT = sDT;
-            Email = email;
-            DiaChi = diaChi;
+           
             TrangThai = trangThai;
         }
 

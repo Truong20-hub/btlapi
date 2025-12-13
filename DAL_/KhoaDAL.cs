@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace DAL_
 {
-    public class KhoaRepository:IKhoaRepostiry
+    public class KhoaDAL:IKhoaRepostiry
     {
         private IDatabaseHelper helper;
-        public KhoaRepository(IDatabaseHelper _helper)
+        public KhoaDAL(IDatabaseHelper _helper)
         {
             this.helper = _helper;
         }
