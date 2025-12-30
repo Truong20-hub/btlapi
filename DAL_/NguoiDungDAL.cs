@@ -17,9 +17,18 @@ namespace DAL_
         {
             this.databaseHelper = databaseHelper;
         }
-        public NguoiDung GetbyMkTKTaiKhoan(NguoiDung Nd)
+        public NguoiDung GetbyMkTKTaiKhoan(string name,string pass)
         {
             NguoiDung tk = new NguoiDung();
+            NguoiDung Nd = new NguoiDung()
+            {
+                Id = Guid.Parse(name),
+                MatKhau = pass,
+                DiaChi = null,
+                loai = 0,
+                SDT = null,
+                email = null
+            }; 
             string t = "";
             bool k = true;
             try

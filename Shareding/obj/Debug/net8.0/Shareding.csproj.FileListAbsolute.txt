@@ -1,0 +1,13 @@
+C:\Users\Dang Truong\source\repos\BtlApi\Shareding\bin\Debug\net8.0\Shareding.deps.json
+C:\Users\Dang Truong\source\repos\BtlApi\Shareding\bin\Debug\net8.0\Shareding.dll
+C:\Users\Dang Truong\source\repos\BtlApi\Shareding\bin\Debug\net8.0\Shareding.pdb
+C:\Users\Dang Truong\source\repos\BtlApi\Shareding\obj\Debug\net8.0\Shareding.csproj.AssemblyReference.cache
+C:\Users\Dang Truong\source\repos\BtlApi\Shareding\obj\Debug\net8.0\Shareding.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dang Truong\source\repos\BtlApi\Shareding\obj\Debug\net8.0\Shareding.AssemblyInfoInputs.cache
+C:\Users\Dang Truong\source\repos\BtlApi\Shareding\obj\Debug\net8.0\Shareding.AssemblyInfo.cs
+C:\Users\Dang Truong\source\repos\BtlApi\Shareding\obj\Debug\net8.0\Shareding.csproj.CoreCompileInputs.cache
+C:\Users\Dang Truong\source\repos\BtlApi\Shareding\obj\Debug\net8.0\Shareding.sourcelink.json
+C:\Users\Dang Truong\source\repos\BtlApi\Shareding\obj\Debug\net8.0\Shareding.dll
+C:\Users\Dang Truong\source\repos\BtlApi\Shareding\obj\Debug\net8.0\refint\Shareding.dll
+C:\Users\Dang Truong\source\repos\BtlApi\Shareding\obj\Debug\net8.0\Shareding.pdb
+C:\Users\Dang Truong\source\repos\BtlApi\Shareding\obj\Debug\net8.0\ref\Shareding.dll

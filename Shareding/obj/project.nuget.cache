@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "dgSpecHash": "7xV/Zr3ZVOg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dang Truong\\source\\repos\\BtlApi\\Shareding\\Shareding.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dang Truong\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.10\\microsoft.aspnetcore.authentication.jwtbearer.8.0.10.nupkg.sha512",
+    "C:\\Users\\Dang Truong\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0\\microsoft.extensions.configuration.9.0.0.nupkg.sha512",
+    "C:\\Users\\Dang Truong\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0\\microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\Dang Truong\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Dang Truong\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Dang Truong\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0\\microsoft.extensions.primitives.9.0.0.nupkg.sha512",
+    "C:\\Users\\Dang Truong\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.15.0\\microsoft.identitymodel.abstractions.8.15.0.nupkg.sha512",
+    "C:\\Users\\Dang Truong\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.1.2\\microsoft.identitymodel.jsonwebtokens.7.1.2.nupkg.sha512",
+    "C:\\Users\\Dang Truong\\.nuget\\packages\\microsoft.identitymodel.logging\\8.15.0\\microsoft.identitymodel.logging.8.15.0.nupkg.sha512",
+    "C:\\Users\\Dang Truong\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.1.2\\microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+    "C:\\Users\\Dang Truong\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
+    "C:\\Users\\Dang Truong\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.15.0\\microsoft.identitymodel.tokens.8.15.0.nupkg.sha512",
+    "C:\\Users\\Dang Truong\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.1.2\\system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "Shareding depends on Microsoft.AspNetCore.Authentication.JwtBearer (>= 8.0.9) but Microsoft.AspNetCore.Authentication.JwtBearer 8.0.9 was not found. Microsoft.AspNetCore.Authentication.JwtBearer 8.0.10 was resolved instead.",
+      "projectPath": "C:\\Users\\Dang Truong\\source\\repos\\BtlApi\\Shareding\\Shareding.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Dang Truong\\source\\repos\\BtlApi\\Shareding\\Shareding.csproj",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "Shareding depends on Microsoft.Extensions.Configuration (>= 8.0.9) but Microsoft.Extensions.Configuration 8.0.9 was not found. Microsoft.Extensions.Configuration 9.0.0 was resolved instead.",
+      "projectPath": "C:\\Users\\Dang Truong\\source\\repos\\BtlApi\\Shareding\\Shareding.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Dang Truong\\source\\repos\\BtlApi\\Shareding\\Shareding.csproj",
+      "libraryId": "Microsoft.Extensions.Configuration",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

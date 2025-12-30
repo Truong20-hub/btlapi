@@ -1,0 +1,9 @@
+C:\Users\Dang Truong\source\repos\BtlApi\APIUser\obj\Debug\net8.0\APIUser.csproj.AssemblyReference.cache
+C:\Users\Dang Truong\source\repos\BtlApi\APIUser\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Dang Truong\source\repos\BtlApi\APIUser\obj\Debug\net8.0\APIUser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dang Truong\source\repos\BtlApi\APIUser\obj\Debug\net8.0\APIUser.AssemblyInfoInputs.cache
+C:\Users\Dang Truong\source\repos\BtlApi\APIUser\obj\Debug\net8.0\APIUser.AssemblyInfo.cs
+C:\Users\Dang Truong\source\repos\BtlApi\APIUser\obj\Debug\net8.0\APIUser.csproj.CoreCompileInputs.cache
+C:\Users\Dang Truong\source\repos\BtlApi\APIUser\obj\Debug\net8.0\APIUser.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dang Truong\source\repos\BtlApi\APIUser\obj\Debug\net8.0\APIUser.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dang Truong\source\repos\BtlApi\APIUser\obj\Debug\net8.0\APIUser.sourcelink.json

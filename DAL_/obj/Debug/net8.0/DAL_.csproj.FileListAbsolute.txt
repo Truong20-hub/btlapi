@@ -1,0 +1,16 @@
+C:\Users\Dang Truong\source\repos\BtlApi\DAL_\obj\Debug\net8.0\DAL_.csproj.AssemblyReference.cache
+C:\Users\Dang Truong\source\repos\BtlApi\DAL_\obj\Debug\net8.0\DAL_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dang Truong\source\repos\BtlApi\DAL_\obj\Debug\net8.0\DAL_.AssemblyInfoInputs.cache
+C:\Users\Dang Truong\source\repos\BtlApi\DAL_\obj\Debug\net8.0\DAL_.AssemblyInfo.cs
+C:\Users\Dang Truong\source\repos\BtlApi\DAL_\obj\Debug\net8.0\DAL_.csproj.CoreCompileInputs.cache
+C:\Users\Dang Truong\source\repos\BtlApi\DAL_\obj\Debug\net8.0\DAL_.sourcelink.json
+C:\Users\Dang Truong\source\repos\BtlApi\DAL_\bin\Debug\net8.0\DAL_.deps.json
+C:\Users\Dang Truong\source\repos\BtlApi\DAL_\bin\Debug\net8.0\DAL_.dll
+C:\Users\Dang Truong\source\repos\BtlApi\DAL_\bin\Debug\net8.0\DAL_.pdb
+C:\Users\Dang Truong\source\repos\BtlApi\DAL_\bin\Debug\net8.0\Model_.dll
+C:\Users\Dang Truong\source\repos\BtlApi\DAL_\bin\Debug\net8.0\Model_.pdb
+C:\Users\Dang Truong\source\repos\BtlApi\DAL_\obj\Debug\net8.0\DAL_.csproj.Up2Date
+C:\Users\Dang Truong\source\repos\BtlApi\DAL_\obj\Debug\net8.0\DAL_.dll
+C:\Users\Dang Truong\source\repos\BtlApi\DAL_\obj\Debug\net8.0\refint\DAL_.dll
+C:\Users\Dang Truong\source\repos\BtlApi\DAL_\obj\Debug\net8.0\DAL_.pdb
+C:\Users\Dang Truong\source\repos\BtlApi\DAL_\obj\Debug\net8.0\ref\DAL_.dll

@@ -57,3 +57,11 @@ C:\Users\Dang Truong\source\repos\BtlApi\APIGateWay\obj\Debug\net6.0\refint\APIG
 C:\Users\Dang Truong\source\repos\BtlApi\APIGateWay\obj\Debug\net6.0\APIGateWay.pdb
 C:\Users\Dang Truong\source\repos\BtlApi\APIGateWay\obj\Debug\net6.0\APIGateWay.genruntimeconfig.cache
 C:\Users\Dang Truong\source\repos\BtlApi\APIGateWay\obj\Debug\net6.0\ref\APIGateWay.dll
+C:\Users\Dang Truong\source\repos\BtlApi\APIGateWay\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Dang Truong\source\repos\BtlApi\APIGateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Dang Truong\source\repos\BtlApi\APIGateWay\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Dang Truong\source\repos\BtlApi\APIGateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Dang Truong\source\repos\BtlApi\APIGateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Dang Truong\source\repos\BtlApi\APIGateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Dang Truong\source\repos\BtlApi\APIGateWay\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Dang Truong\source\repos\BtlApi\APIGateWay\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

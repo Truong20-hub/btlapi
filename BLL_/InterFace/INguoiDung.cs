@@ -9,7 +9,7 @@ namespace BLL_.InterFace
 {
     public interface INguoiDung
     {
-        NguoiDung GetbyMkTKTaiKhoan(NguoiDung Nd);
+        NguoiDung GetbyMkTKTaiKhoan(string a,string b);
         NguoiDung getDatabyID(string id);
         bool create(NguoiDung account);
         bool update(NguoiDung account);

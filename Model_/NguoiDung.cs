@@ -25,6 +25,7 @@ namespace Model_
         public string email { get; set; }
         public int loai { get; set; }
         public string DiaChi { get; set; }
+        public string token { get; set; }
 
     }
 }

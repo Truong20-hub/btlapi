@@ -1,0 +1,6 @@
+C:\Users\Dang Truong\source\repos\BtlApi\Shareding\obj\Debug\net9.0\Shareding.csproj.AssemblyReference.cache
+C:\Users\Dang Truong\source\repos\BtlApi\Shareding\obj\Debug\net9.0\Shareding.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dang Truong\source\repos\BtlApi\Shareding\obj\Debug\net9.0\Shareding.AssemblyInfoInputs.cache
+C:\Users\Dang Truong\source\repos\BtlApi\Shareding\obj\Debug\net9.0\Shareding.AssemblyInfo.cs
+C:\Users\Dang Truong\source\repos\BtlApi\Shareding\obj\Debug\net9.0\Shareding.csproj.CoreCompileInputs.cache
+C:\Users\Dang Truong\source\repos\BtlApi\Shareding\obj\Debug\net9.0\Shareding.sourcelink.json

@@ -8,15 +8,32 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Shareding;
 
 namespace BLL_
 {
     public class BLLNguoiDung:INguoiDung
     {
-        NguoiDungDAL dAL;
-        public NguoiDung GetbyMkTKTaiKhoan(NguoiDung Nd)
+        INguoiDung _user;
+
+        IJwtsevice _jwtsevice;
+        
+
+        public BLLNguoiDung(INguoiDung nguoiDung,IJwtsevice jwtsevice )
         {
-            return dAL.GetbyMkTKTaiKhoan(Nd);
+            _user = nguoiDung;
+            _jwtsevice = jwtsevice;
+        }
+        public NguoiDung GetbyMkTKTaiKhoan(string usename,string password)
+        {
+            var user = _user.GetbyMkTKTaiKhoan(usename,password);
+            if(user == null)
+            {
+                return null;
+            }
+            user.token = _jwtsevice.GenerateToken(user.Id.ToString(), user.MatKhau);
+            return user;
+            
         }
         public NguoiDung getDatabyID(string id)
         {

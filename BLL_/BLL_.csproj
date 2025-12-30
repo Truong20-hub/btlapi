@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DAL_\DAL_.csproj" />
     <ProjectReference Include="..\Model_\Model_.csproj" />
+    <ProjectReference Include="..\Shareding\Shareding.csproj" />
   </ItemGroup>
 
 </Project>
